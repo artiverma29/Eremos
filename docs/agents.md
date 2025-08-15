@@ -12,24 +12,15 @@ Use `/agents/example.ts` as a scaffold.
 - Keep logic scoped and clean
 - Use `generateSignalHash()` for all outputs
 - Log using the shared `logSignal()` util
-
-You can test agents using `/scripts/dev-agent.ts` or create your own mock.
+- You can test agents using `/scripts/dev-agent.ts` or create your own mock.
 
 ## Agents
 
-### Theron (Agent-000)
-- Role: memory_vault  
-- Glyph: Ϸ  
-- Watches: anomaly_detection  
-
-### Observer
-- Role: surveillance  
-- Glyph: Δ  
-- Watches: wallet_activity  
-
-### Harvester (new)
-- Role: indexing  
-- Glyph: λ  
-- Watches: mint_activity  
+| Agent Name             | Role          | Glyph | Watches            |
+| ---------------------- | ------------- | :---: | ------------------ |
+| **Theron (Agent-000)** | memory_vault  | Ϸ     | anomaly_detection  |
+| **Observer**           | surveillance  | Δ     | wallet_activity    |
+| **Harvester** (new)    | indexing      | λ     | mint_activity      |
+  
 
 //pending adjustments + adding more agents ^
